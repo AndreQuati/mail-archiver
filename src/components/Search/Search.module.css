@@ -1,0 +1,46 @@
+#main {
+    display: flex;
+}
+/* Date picker container */
+#inputArea {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-border-2);
+    border-right: none;
+    box-shadow: inset 0px 0px 2px 0.5px var(--color-border-1);
+    border-radius: 7px 0 0 7px;
+    padding: 10px;
+    width: auto; 
+}
+.datePicker {
+    width: 82px;
+    border: none;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle; /* Necessary to align correctly on Chrome */
+    padding: 0 2px;
+    outline: none;
+}
+.icon {
+    height: 18px;
+    padding: 0 5px;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-border-1);
+    border-radius: 0 7px 7px 0;
+    background-color: var(--color-background-1);
+    margin: 0;
+    padding: 0 10px;
+    outline: none;
+}
+#button:hover {
+    border: 1px solid var(--color-border-2);
+    background-color: var(--color-border-1);
+}
+#button:active {
+    border: 1px solid var(--color-border-2);
+    background-color: var(--color-background-1);
+}

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    background-color: var(--color-background-1);
+    padding: 10px 5%;
+    border-bottom: 1px solid var(--color-border-1);
+    font-size: small;
+    font-weight: bold;
+    color: var(--color-text-heading);
+    user-select: none;
+}
+
+.sortBtn {
+    border-right: 1px solid var(--color-text-heading);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.sortBtn:last-of-type {
+    border-right: none;
+}
+
+.divider {
+    border: none;
+    border-bottom: 1px solid var(--color-border-1);
+    margin: 0;
+}

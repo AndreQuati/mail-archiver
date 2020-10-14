@@ -1,0 +1,161 @@
+[{
+  "id": "aad9eab4-5982-4e26-9579-49e8f0f72f54",
+  "from": "super-long-e-mail-acount@test-for-overflow.com",
+  "to": "james.green@company.com, juarez.delgado@company.com, max.krauss@company.com, joao.costaa@company.com",
+  "subject": "[web:333] \"Web Contact\"",
+  "hasAttachment": true,
+  "replies": 2,
+  "date": "9/14/2020"
+}, {
+  "id": "31464931-7788-4a7f-ae5b-d2141f16f928",
+  "from": "some-service@ads.com",
+  "to": "luca.turi@company.com",
+  "subject": "Happy New Year! Greetings for the New Year",
+  "hasAttachment": true,
+  "replies": 0,
+  "date": "10/10/2020"
+}, {
+  "id": "99971638-fa4b-46b6-80a1-5f0a68d3850f",
+  "from": "john.pretrucci@company.com",
+  "to": "mike.portnoy@company.com",
+  "subject": "[HR-887(Revised: Office Expansion Project Team)] Notice of some really long text that would take up a lot of space in the screen",
+  "hasAttachment": false,
+  "replies": 2,
+  "date": "11/24/2015"
+}, {
+  "id": "215e173f-c418-4663-b5f5-fb93ccf8f758",
+  "from": "hr@company.com",
+  "to": "some.employee@company.com",
+  "subject": "[Action Required] Do this immediately",
+  "hasAttachment": false,
+  "replies": 20,
+  "date": "4/2/2020"
+}, {
+  "id": "8da15941-ad8e-40c3-845a-5c6316297792",
+  "from": "john.dev@company.com",
+  "to": "mark.productowner@company.com",
+  "subject": "[Github] Logout page",
+  "hasAttachment": true,
+  "replies": 0,
+  "date": "1/14/2017"
+}, {
+  "id": "516d6cea-7dcb-45d3-9650-0b7e2acb1d3e",
+  "from": "hr-announcements@company.com",
+  "to": "mailing-list@company.com",
+  "subject": "[ HR-888 ] Notice of official announcement",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "5/9/2017"
+}, {
+  "id": "2db797ff-f8a8-4bd9-ae05-6bea0e1da89e",
+  "from": "it.support@company.com",
+  "to": "sameguy.ashrannouncement@company.com",
+  "subject": "Renewal of certificate",
+  "hasAttachment": true,
+  "replies": 999,
+  "date": "8/28/2019"
+}, {
+  "id": "fcaba4f4-25e3-4f8e-a1f4-c236860163ec",
+  "from": "rajat.ganesh@company.com",
+  "to": "ml-team@company.com",
+  "subject": "Message with lots of replies",
+  "hasAttachment": false,
+  "replies": 1000,
+  "date": "Oct 08 2020 09:45:00 GMT+0900 (Horário Padrão do Japão)"
+}, {
+  "id": "75b12795-82e2-4b1d-917a-c0c17770ce67",
+  "from": "order@amazon.co.jp",
+  "to": "future-ps5.owner@company.com",
+  "subject": "Your order is on it's way!",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "7/1/2018"
+}, {
+  "id": "3b498d8a-2a9c-41f4-b0d2-34d4737a6248",
+  "from": "employee@company.com",
+  "to": "hr@company.com",
+  "subject": "My holidays",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "8/25/2017"
+}, {
+  "id": "14be1c48-edb1-4c18-a3df-5d4d157afbd6",
+  "from": "max.krauss@company.com",
+  "to": "hitoshi.nakamura@company.com, Juan.delgado@company.com",
+  "subject": "Discussion about Lorem Ipsum",
+  "hasAttachment": true,
+  "replies": 0,
+  "date": "9/2/2018"
+}, {
+  "id": "263a1f4a-bda4-4179-9e08-5141db75991c",
+  "from": "john.wayne@company.com",
+  "to": "max.krauss@company.com, hitoshi.nakamura@company.com",
+  "subject": "All hands metting agenda",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "11/11/2015"
+}, {
+  "id": "bf01ca3b-0e99-4af3-9197-bbdf5e448c34",
+  "from": "joao.costa@company.com",
+  "to": "ml-managers@company.com",
+  "subject": "Budget planning for next year",
+  "hasAttachment": true,
+  "replies": 0,
+  "date": "11/16/2018"
+}, {
+  "id": "71a23d46-9041-4947-b895-55c2a0f66671",
+  "from": "joaquin.campos@company.com",
+  "to": "mark.brown@company.com",
+  "subject": "[Workflow] Your request was approved",
+  "hasAttachment": true,
+  "replies": 0,
+  "date": "1/27/2016"
+}, {
+  "id": "5765e890-3806-476b-9b2d-04203521806c",
+  "from": "max.krauss@company.com",
+  "to": "jean.pierre@company.com",
+  "subject": "Meeting: Catch up project status",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "9/2/2020"
+}, {
+  "id": "d154eacf-0f2b-45ec-a55f-818792ce843c",
+  "from": "luca.turini@company.com",
+  "to": "john.petrucci@company.com, mike.portnoy@company.com, marco.minemann@company.com, keanu.reeves@company.com",
+  "subject": "Coffee",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "6/16/2017"
+}, {
+  "id": "36c9d690-3956-4b4e-a80d-dd35bfc6e5bd",
+  "from": "google@google.com",
+  "to": "joao.campos@company.com",
+  "subject": "Login to your account",
+  "hasAttachment": true,
+  "replies": 1,
+  "date": "10/23/2017"
+}, {
+  "id": "6496565f-331c-4370-ba45-128daa0e167b",
+  "from": "mark.blue@company.com",
+  "to": "john.green@company.com",
+  "subject": "Churrasco no fim de semana",
+  "hasAttachment": true,
+  "replies": 3,
+  "date": "6/30/2016"
+}, {
+  "id": "dd14cb5b-7bbd-4ad6-bd9b-dc019e20372b",
+  "from": "juarez.delgado@company.com",
+  "to": "juan.mendez@company.com",
+  "subject": "Hola amigo, que tal?",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "2/17/2019"
+}, {
+  "id": "45ba7edc-5707-49e2-9642-31b2d754c1e8",
+  "from": "hitoshi.nakamura@company.com",
+  "to": "taro.yamada@company.com",
+  "subject": "[Workflow] Your request has been submitted",
+  "hasAttachment": false,
+  "replies": 0,
+  "date": "9/15/2020"
+}]

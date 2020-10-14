@@ -1,0 +1,22 @@
+#message {
+    height: 0;
+    padding: 0 5%;
+    border-bottom: 1px solid var(--color-border-1);
+    overflow: hidden;  
+  }
+  #message.open {
+    height: 250px;
+    overflow: scroll;
+    border-top: 1px solid var(--color-shadow);
+    
+    /* Scroll gradient */
+    background: 
+        linear-gradient(var(--color-background-3) 33%, rgba(255,255,255, 0)),
+        linear-gradient(rgba(255,255,255, 0), var(--color-background-3) 66%) 0 100%,
+        radial-gradient(farthest-side at 50% 0, #DEDEDE, rgba(0,0,0,0)),
+        radial-gradient(farthest-side at 50% 100%, #DEDEDE, rgba(0,0,0,0)) 0 100%;
+        background-color: var(--color-background-3);
+    background-repeat: no-repeat;
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100% 30px, 100% 30px, 100% 10px, 100% 10px;
+  }

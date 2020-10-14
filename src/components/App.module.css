@@ -1,0 +1,33 @@
+/* Layout */
+#topSection, #bottomSection {
+    max-width: 1600px;
+    margin: auto;
+}
+#topSection {
+    padding: 35px 5% 0;
+}
+#bottomSection {
+    padding: 0 5% 35px;
+}
+/* Layout for mobile */
+@media (max-width: 768px) {
+    #topSection {
+        padding: 20px 5% 0;
+    }
+    #bottomSection {
+        padding: 0;
+    }
+}
+
+/* Elements styles */
+#results {
+    margin-bottom: 7px;
+}
+#count {
+    font-size: large;
+}
+.divider {
+    border: none;
+    border-bottom: 1px solid var(--color-border-1);
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+:root {
+  /* Text color variables */
+  --color-text-heading: #666666;
+  --color-text-primary: #333333;
+  --color-text-contrast: #FFFFFF;
+  --color-text-hover-1: #0533DD;
+  --color-text-active: #111111;
+
+  /* Element colors variables */
+  --color-background-1: #F5F5F5;
+  --color-background-2: #888888;
+  --color-background-3: #F6F8FA;
+  --color-border-1: #DEDEDE;
+  --color-border-2: #D0D0D0;
+  --color-shadow: #888888;
+}
+
+body {
+  color: var(--color-text-primary);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+thead, th, h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-heading);
+}

@@ -1,0 +1,7 @@
+#logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* This moves the component half of it's size back to left and top. 
+    Translate value is calculated based on the component's size. */
+}

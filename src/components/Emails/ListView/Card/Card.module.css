@@ -1,0 +1,87 @@
+/* Main layout */
+#grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "mailIcon from"
+      "mailIcon to"
+      "subject subject";
+    gap: 8px;
+    padding: 10px 5%;
+    /* border-bottom: 1px solid var(--color-border-1); */
+}
+/* Text overflow for grid child elements */
+#grid * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Grid items */
+#mailIcon {
+  grid-area: mailIcon;
+  display: flex;
+  align-self: center;
+  width: 12px;
+}
+#from {
+  grid-area: from;
+}
+#to {
+  grid-area: to;
+}
+#subject {
+  grid-area: subject;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex * {
+  margin: 0 2px; /* Gap between items */
+}
+.flex > span {
+  font-size: small;
+  padding-bottom: 1px;   
+}
+.active {
+  color: var(--color-text-active);
+  font-weight: bold;
+}
+
+#iconsContainer {
+  min-width: fit-content;
+}
+#iconAtt {
+  width: 13px;
+}
+#iconArrow {
+  height: 7px;
+  width: 7px;
+}
+
+/* Not a grid item */
+/* #message {
+  height: 0;
+  padding: 0 5%;
+  border-bottom: 1px solid var(--color-border-1);
+  overflow: hidden;  
+}
+#message.open {
+  height: 250px;
+  overflow: scroll;
+  border-top: 1px solid var(--color-shadow); */
+  
+  /* Scroll gradient */
+  /* background: 
+      linear-gradient(var(--color-background-3) 33%, rgba(255,255,255, 0)),
+      linear-gradient(rgba(255,255,255, 0), var(--color-background-3) 66%) 0 100%,
+      radial-gradient(farthest-side at 50% 0, #DEDEDE, rgba(0,0,0,0)),
+      radial-gradient(farthest-side at 50% 100%, #DEDEDE, rgba(0,0,0,0)) 0 100%;
+      background-color: var(--color-background-3);
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+  background-size: 100% 30px, 100% 30px, 100% 10px, 100% 10px;
+} */

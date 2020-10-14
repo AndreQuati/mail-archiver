@@ -1,0 +1,40 @@
+.row td {
+    max-width: 0; /* This is necessary to make overflow elipsis work */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    user-select: none;
+}
+
+/* Columns size */
+td.email {
+    width: 15%;
+}
+td.icon {
+    width: 15px;
+    padding-right: 0;
+}
+td.count {
+    width: 40px;
+}
+td.date {
+    width: 100px;
+}
+td.message {
+    padding: 0;
+}
+
+/* Rows hover effect */
+.row:hover {
+    cursor: pointer;
+    color: var(--color-text-hover-1);
+    background: var(--color-background-3);
+}
+.row:hover #attachmentIcon * {
+    fill: var(--color-text-hover-1);
+}
+.active {
+    color: var(--color-text-active);
+    font-weight: bold;
+}

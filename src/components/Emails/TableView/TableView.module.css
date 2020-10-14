@@ -1,0 +1,15 @@
+.table {
+    border-spacing: 0;
+    width: 100%;  
+}
+
+.header th {
+    position: sticky;
+    top: 0;
+    text-align: left;
+    font-size: small;
+    background-color: var(--color-background-1);
+    padding: 10px;
+    border-bottom: 1px solid var(--color-border-1);
+    user-select: none;
+}

@@ -1,0 +1,30 @@
+#main {
+    cursor: pointer;
+ }
+
+#sortIcon {
+    display: none; /* Icon is initially not displayed */
+    width: 9px;
+    padding-bottom: 1px;
+    margin-left: 7px;
+}
+#main:hover #sortIcon {
+    display: inline-block; /* Visible when main is hovered */
+}
+
+.active {
+    color: var(--color-text-active);
+    font-weight: bold;
+    visibility: visible;
+}
+
+/* Sort icon properties when active */
+.active #sortIcon {
+    display: inline-block;
+}
+.active #sortIcon * {
+    fill: var(--color-text-active);
+}
+.active .descending {
+    transform: rotate(180deg);
+}
