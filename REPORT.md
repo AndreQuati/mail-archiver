@@ -25,7 +25,7 @@
 - Spent considerable time finding a date picker that could be easily customized to match the mockup
 - Deciding the layout for the expandable message - I would most likely prefer Microsoft Outlook layout, where the message is displayed in another panel, but this wouldn’t meet the requirement for opening multiple messages at once
 - The sort logic, although relatively simple, still required some studying  
-- Ensuring cross browser compability
+- Ensuring cross browser compability (tested on Chrome, Safari, Firefox and Edge)
 
 What was easy:
 - Adapting the mobile version once all components had been created
