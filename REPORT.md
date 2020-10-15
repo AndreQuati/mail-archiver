@@ -15,7 +15,6 @@
 - Search
 - Mobile version
 
-</br>
 
 ## Challenges
 - First time implementing a react app from scratch completely by myself as well as most most things in this challenge
@@ -31,7 +30,6 @@
 What was easy:
 - Adapting the mobile version once all components had been created
 
-</br>
 
 ## Time spent
 
