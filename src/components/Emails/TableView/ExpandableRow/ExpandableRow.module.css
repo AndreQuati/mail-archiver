@@ -13,13 +13,19 @@ td.email {
 }
 td.icon {
     width: 15px;
+    min-width: fit-content;
     padding-right: 0;
+}
+#attachmentIcon {
+    width: 15px;
 }
 td.count {
     width: 40px;
+    min-width: fit-content;
 }
 td.date {
     width: 100px;
+    min-width: fit-content;
 }
 td.message {
     padding: 0;
