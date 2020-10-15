@@ -35,7 +35,7 @@ What was easy:
 
 ## Time spent
 
->**Total:** Around 16 days, working approximately 5 hours/day.
+**Total:** Around 16 days, working approximately 5 hours/day.
 
 Component | Time | Note
 ----- | ----- | ----- 
